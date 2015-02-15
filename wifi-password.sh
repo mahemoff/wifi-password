@@ -91,9 +91,4 @@ if [ "" == "$pwd" ]; then
 fi
 
 # print
-if [ $verbose ]; then
-  echo "\033[96m ✓ \"$pwd\" \033[39m"
-  echo ""
-else
-  echo $pwd
-fi
+echo $pwd
